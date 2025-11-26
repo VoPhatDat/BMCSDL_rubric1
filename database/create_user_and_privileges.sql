@@ -18,5 +18,5 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON USERS TO vophatdat;
 GRANT SELECT, INSERT, UPDATE, DELETE ON PRODUCTS TO vophatdat;
 GRANT SELECT, INSERT, UPDATE, DELETE ON ORDERS TO vophatdat;
 
-
+-- checking status
 SELECT username, account_status FROM dba_users WHERE username IN ('APP_USER', 'VOPHATDAT');
